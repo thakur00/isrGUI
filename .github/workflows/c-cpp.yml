@@ -14,7 +14,7 @@ jobs:
     steps:
     
     - name: install
-      run: apt-get install libboost-system-dev libboost-test-dev libboost-thread-dev libqwt-qt5-dev qtbase5-dev
+      run: sudo apt-get install libboost-system-dev libboost-test-dev libboost-thread-dev libqwt-qt5-dev qtbase5-dev
      
     - name: build
       run: mkdir build
